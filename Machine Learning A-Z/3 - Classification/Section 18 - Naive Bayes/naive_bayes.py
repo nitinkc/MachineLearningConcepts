@@ -67,3 +67,19 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
+
+
+# TODO: Import the three supervised learning models from sklearn
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import AdaBoostClassifier
+
+# K-Nearest Neighbors
+# Support Vector Machines(SVM)
+# Ensemble Method (AdaBoost Classifier)
+
+# TODO: Initialize the three models
+clf_A = KNeighborsClassifier(n_neighbors = 5, metric = 'minkowski', p = 2)
+clf_B = SVC(kernel = 'linear', random_state = 0)
+clf_C = None
