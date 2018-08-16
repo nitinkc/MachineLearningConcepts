@@ -10,7 +10,6 @@ classifier = KNeighborsClassifier(n_neighbors = 5, metric = 'minkowski', p = 2)
 classifier.fit(X_train, y_train)
 
 
-
 # Fitting SVM to the Training set
 from sklearn.svm import SVC
 classifier = SVC(kernel = 'linear', random_state = 0)
